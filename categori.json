@@ -6,4 +6,12 @@
     "categori": "Pemrograman Dasar",
     "key": "pemrograman",
     "lock":true
+},{
+    "categori": "Matematika",
+    "key": "matematika",
+    "lock":true
+},{
+    "categori": "Kosa kata Bahasa Inggris",
+    "key": "bhsinggris",
+    "lock":true
 }]
