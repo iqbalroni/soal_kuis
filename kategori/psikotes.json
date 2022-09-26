@@ -1,0 +1,307 @@
+[{
+    "question": "Susan adiknya Jim, Peter kakaknya Susan dan lebih muda dari Jim. Siapa yang paling muda?",
+    "key": "Susan",
+    "A": "Jim",
+    "B": "Peter",
+    "C": "tidak dapat disimpulkan"
+}, {
+    "question": "Michael dan Joni mendengarkan musik. Yunis dan Michael hobi membaca. Siapa yang sedang membaca sambil mendengarkan musik?",
+    "key": "Michael",
+    "A": "Yunis",
+    "B": "Joni",
+    "C": "Yunis dan Michael"
+}, {
+    "question": "A adalah seorang anak dari pasangan suami isteri B dengan C. E adalah anak dari pasangan D dengan B. Hubungan antara A dengan E disebut",
+    "key": "Saudara sepupu",
+    "A": "Saudara misan",
+    "B": "Saudara ipar",
+    "C": "a, b, c, salah"
+}, {
+    "question": "Hanya orang kaya bisa membeli mobil. Rutifa adalah orang yang membeli mobil. Orang ini tidak kaya. Jadi",
+    "key": "Orang ini bukan Rutifa",
+    "A": "Orang ini adalah Rutifa",
+    "B": "Rutifa tidak kaya",
+    "C": "a, b,c bukan jawaban yang benar"
+}, {
+    "question": "Sebagian penyanyi berwajah cantik. Isabella artis cantik dan Diana seorang penyanyi",
+    "key": "a dan b bukan di antaranya",
+    "A": "Diana berwajah cantik",
+    "B": "Isabella penyanyi cantik",
+    "C": "a dan b"
+}, {
+    "question": "Helen menyukai David. Siapa yang menyukai David menyukai Tom. Helen menyukai hanya laki-laki tampan. Jadi",
+    "key": "Tom adalah laki-laki tampan",
+    "A": "Tom adalah bukan laki-laki tampan",
+    "B": "Tom dan David menyukai Helen",
+    "C": "Helen tidak menyukai David"
+}, {
+    "question": "Produk Bontang lebih mahal daripada produk Medan. Produk Makasar lebih murah daripada produk Bontang. Jadi",
+    "key": "Produk Medan dan Produk Makasar lebih murah daripada produk Bontang.",
+    "A": "Produk Medan dan produk Makasar sama mahalnya.",
+    "B": "Produk Medan lebih murah daripada produk Makasar.",
+    "C": "Produk Makasar lebih mahal daripada produk Medan."
+}, {
+    "question": "Gus Dur adalah putra kandung K.H. Wahid Hasyim. Kalimat manakah yang tidak berhubungan langsung dengan kalimat di atas?",
+    "key": "Gus Dur pernah menjadi Presiden Republik Indonesia.",
+    "A": "Pada diri Gus Dur mengalir darah K.H Wahid Hasyim.",
+    "B": "K.H. Wahid Hasyim adalah ayah Gus Dur.",
+    "C": "Gus Dur adalah keturunan K.H. Wahid Hasyim."
+}, {
+    "question": "Steven, Richard, dan Anton menyukai bola basket. Joni dan Richard memakai arloji. Siapakah yang jatuh arlojinya ketika bermain basket?",
+    "key": "Richard",
+    "A": "Steven",
+    "B": "Anton",
+    "C": "Joni"
+}, {
+    "question": "X lebih tua dari N, E lebih muda dari A, T lebih muda dari N;X lebih muda dari E, N lebih tua dari T maka yang termuda adalah",
+    "key": "T",
+    "A": "X",
+    "B": "E",
+    "C": "N"
+}, {
+    "question": "Jika Joni tidak ditugaskan sebagai pencatat, siapakah yang dapat ditugaskan sebagai pencatat?",
+    "key": "Hanya Imran",
+    "A": "Hanya Gunadi",
+    "B": "Hanya Gunadi Dan Heri",
+    "C": "Hanya Imran Dan Kurdi"
+}, {
+    "question": "Jika L duduk di kursi no.1 dan K no.5, manakah berikut ini yang benar?",
+    "key": "M Duduk Di Kursi No.6",
+    "A": "Duduk Di Kursi No.4",
+    "B": "N Duduk Di Kursi No.4",
+    "C": "M Duduk Di Kursi No.3"
+}, {
+    "question": "Semua murid yang mengikuti ujian tidak menggunakan kalkulator. Sebagian murid yang ujian mengenakan jam tangan. Jadi",
+    "key": "Sebagian murid yang ujian mengenakan jam tangan dan tidak menggunakan kalkulator.",
+    "A": "Semua murid yang ujian tidak menggunakan kalkulator dan tidak mengenakan jam tangan.",
+    "B": "Sementara murid yang ujian tidak mengenakan jam tangan.",
+    "C": "Semua murid yang ujian mengenakan jam tangan."
+}, {
+    "question": "Semua Y adalah P. Sebagian Y adalah R. Jadi",
+    "key": "Semua Y yang bukan R adalah P",
+    "A": "Semua Y yang bukan P adalah R",
+    "B": "Semua R yang bukan Y adalah P",
+    "C": "Sebagian Y yang bukan R adalah P"
+}, {
+    "question": "Semua ikan hidup di air. Beberapa ikan hidup di air tawar. Jadi",
+    "key": "Sebagian ikan tidak hidup di air tawar",
+    "A": "Tidak ada ikan yang hidup di air laut.",
+    "B": "Beberapa ikan yang hidup di air tawar tidak dapat hidup di air laut.",
+    "C": "Semua ikan dapat hidup di air tawar dan air laut."
+}, {
+    "question": "Pembalap harus lulus uji ketahanan fisik. Sebagian besar pembalap sedang menderita sakit flu",
+    "key": "Tidak ada pembalap yang sakit flu yang dapat lulus uji ketahanan fisik.",
+    "A": "Ada pembalap yang lulus uji ketahahan fisik, tetapi sakit flu",
+    "B": "Hanya sebagian saja pembalap yang lulus uji ketahanan fisik.",
+    "C": "Pembalap yang lulus uji ketahanan fisik adalah pembalap yang sakit flu."
+}, {
+    "question": "Kebanyakan burung dapat terbang. Burung unta adalah juga seekor burung. Kesimpulannya",
+    "key": "Burung unta belum tentu dapat terbang",
+    "A": "Burung unta dapat terbang",
+    "B": "Burung unta memang tidak dapat terbang",
+    "C": "Jawaban a,b, dan c ketiga-tiganya salah"
+}, {
+    "question": "Kita membutuhkan energi setiap kali berolahraga. Catur adalah olahraga berpikir",
+    "key": "Catur membutuhkan energi",
+    "A": "Catur tidak membutuhkan energi",
+    "B": "Energi yang diperlukan untuk catur hanya sedikit",
+    "C": "Olahraga berpikir tidak membutuhkan energi"
+}, {
+    "question": "Apabila sebagian manusia tidak berjiwa besar, maka",
+    "key": "Tidak semua manusia berjiwa lemah",
+    "A": "Perenang memiliki jiwa sportif",
+    "B": "Pamanku berjiwa besar",
+    "C": "Seorang berjiwa besar sudah tentu bukanlah seorang pecundang"
+}, {
+    "question": "Bila semua X adalah A. Sebagian X adalah B, jadi",
+    "key": "Semua X yang bukan B adalah A",
+    "A": "Semua X yang bukan A adalah B",
+    "B": "Semua B yang bukan X adalah A",
+    "C": "Semua A yang bukan X adalah B"
+}, {
+    "question": "Semua ban terbuat dari karet. Semua karet bersifat elastis. Jadi : Sebagian karet berwarna hitam",
+    "key": "Semua ban elastis dan terbuat dari karet.",
+    "A": "Semua ban berwarna hitam.",
+    "B": "Semua ban elastis berwarna hitam.",
+    "C": "Sebagian ban berwarna hitam terbuat dari karet."
+}, {
+    "question": "Tambang - Emas = Laut - ....",
+    "key": "Karang",
+    "A": "Nelayan",
+    "B": "Kapal",
+    "C": "Badai"
+}, {
+    "question": "Darat - Mobil = Udara - …",
+    "key": "Pesawat Terbang",
+    "A": "Perahu",
+    "B": "Terbang",
+    "C": "Angin"
+}, {
+    "question": "Lebah - Madu = Cendrawasih - ....",
+    "key": "Bulu",
+    "A": "Burung",
+    "B": "Daging",
+    "C": "Suara"
+}, {
+    "question": "Pintar - Belajar = Bodoh - ....",
+    "key": "Malas",
+    "A": "Dosen",
+    "B": "Rajin",
+    "C": "Cerdas"
+}, {
+    "question": "Pisang - Buah = Sapi - ....",
+    "key": "Binatang",
+    "A": "Kulit",
+    "B": "Gemuk",
+    "C": "Banteng"
+}, {
+    "question": "Terbang - Burung = Jalan - ....",
+    "key": "Singa",
+    "A": "Lebah",
+    "B": "Kupu-kupu",
+    "C": "Jauh"
+}, {
+    "question": "Televisi - Gambar = Radio - ....",
+    "key": "Suara",
+    "A": "Merdu",
+    "B": "Penyiar",
+    "C": "Listrik"
+}, {
+    "question": "Nasi - Beras = Tape - ....",
+    "key": "Singkong",
+    "A": "Pisang",
+    "B": "Gandum",
+    "C": "Nanas"
+}, {
+    "question": "Telepon - Komunikasi = Sepeda - ....",
+    "key": "Transportasi",
+    "A": "Cepat",
+    "B": "Lomba",
+    "C": "Roda"
+}, {
+    "question": "Mahkota - Raja = Helm - ....",
+    "key": "Pembalap",
+    "A": "Ratu",
+    "B": "Peragawan",
+    "C": "Plastik"
+}, {
+    "question": "Beo - Suara = Sapi - ....",
+    "key": "Daging",
+    "A": "Suara",
+    "B": "Warna",
+    "C": "Bulu"
+}, {
+    "question": "Mobil - Bensin = Pelari - ....",
+    "key": "Makanan",
+    "A": "Sepatu",
+    "B": "Kaos",
+    "C": "Lintasan"
+}, {
+    "question": "Sendok - Makan = Silet - ....",
+    "key": "Potong",
+    "A": "Bahaya",
+    "B": "Hitam",
+    "C": "Tajam"
+}, {
+    "question": "Haus - Minuman = Terang - ....",
+    "key": "Lampu",
+    "A": "Benderang",
+    "B": "Putih",
+    "C": "Gelap"
+}, {
+    "question": "Kertas - Pena = Dinding - ....",
+    "key": "Kuas",
+    "A": "Dempul",
+    "B": "Amplas",
+    "C": "Cat"
+}, {
+    "question": "Obat - Apotik = Pakaian - ....",
+    "key": "Butik",
+    "A": "Binatu",
+    "B": "Baju",
+    "C": "Celana"
+}, {
+    "question": "Kumis - Kucing = Belalai - ....",
+    "key": "Gajah",
+    "A": "Harimau",
+    "B": "Ular",
+    "C": "Hidung"
+}, {
+    "question": "Mobil - Bensin = Perahu - ....",
+    "key": "Angin",
+    "A": "Ombak",
+    "B": "Kayu",
+    "C": "Laut"
+}, {
+    "question": "Semir - Sepatu = Sikat - ....",
+    "key": "Gigi",
+    "A": "Televisi",
+    "B": "Rambut",
+    "C": "Kuku"
+}, {
+    "question": "Sepatu - Kaki = Topi - ....",
+    "key": "Kepala",
+    "A": "Bulat",
+    "B": "Kaki",
+    "C": "Tangan"
+}, {
+    "question": "Sekolah : Pandai = Puskesmas : ....",
+    "key": "Sehat",
+    "A": "Pasien",
+    "B": "Sakit",
+    "C": "Penyembuhan"
+}, {
+    "question": "Dingin : Selimut = Hujan : ....",
+    "key": "Payung",
+    "A": "Basah",
+    "B": "Gelap",
+    "C": "Air"
+}, {
+    "question": "Pulsa : Telepon = .... : Pertunjukan",
+    "key": "Karcis",
+    "A": "Surat",
+    "B": "Uang",
+    "C": "Harga"
+}, {
+    "question": "Lapar : Makan = Gatal : ....",
+    "key": "Garuk",
+    "A": "Borok",
+    "B": "Luka",
+    "C": "Merah"
+}, {
+    "question": "Minuman : Haus = ....",
+    "key": "Lampu : Gelap",
+    "A": "Gerobak : Sapi",
+    "B": "Kereta Api : Penumpang",
+    "C": "Mati : Hidup"
+}, {
+    "question": "Cincin : Jari = ....",
+    "key": "Rumput : Lapangan",
+    "A": "Pegawai : Kantor",
+    "B": "Anting : Bibir",
+    "C": "Domba : Pengembala"
+}, {
+    "question": "Pakaian : Bugil = ....",
+    "key": "Kepala : Topi",
+    "A": "Cincin : Jari",
+    "B": "Telinga : Anting",
+    "C": "Meja : Ruangan"
+}, {
+    "question": "Siang : Terang = ....",
+    "key": "Batu : Keras",
+    "A": "Rambut : Gundul",
+    "B": "Motor : Mogok",
+    "C": "Botak : Kepala"
+}, {
+    "question": "Pembalap : Sirkuit =",
+    "key": "Petinju : Ring",
+    "A": "Joki : Kuda",
+    "B": "Harimau : Hutan",
+    "C": "Sapi : Sawah"
+}, {
+    "question": "Lapar : Nasi = ....",
+    "key": "Sopir : Penumpang",
+    "A": "Keras : Lunak",
+    "B": "Kontraktor : Proyek",
+    "C": "Mahasiswa : Pekerjaan"
+}]

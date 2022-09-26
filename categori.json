@@ -1,17 +1,21 @@
 [{
-    "categori": "Mata Pelajaran UMUM",
+    "categori": "Mata Pelajaran Umum",
     "key": "umum",
-    "lock":false
+    "lock": false
 }, {
     "categori": "Pemrograman Dasar",
     "key": "pemrograman",
-    "lock":true
-},{
+    "lock": true
+}, {
     "categori": "Matematika",
     "key": "matematika",
-    "lock":true
-},{
+    "lock": true
+}, {
     "categori": "Kosa kata Bahasa Inggris",
     "key": "bhsinggris",
-    "lock":true
+    "lock": true
+}, {
+    "categori": "Psikotes",
+    "key": "psikotes",
+    "lock": false
 }]
