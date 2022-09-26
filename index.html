@@ -16,23 +16,16 @@
       crossorigin="anonymous"
     />
 
-    <style>
-      .jumbotron {
-        height: 100vh;
-        margin: 0;
-        border-radius: 0;
-        background-color: #7895b2;
-      }
-    </style>
+    <link rel="stylesheet" href="css/style.css" />
 
-    <title>Hello, world!</title>
+    <title>API IQBAL RONI</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">API PUBLIC IQBAL</a>
+        <a class="navbar-brand" href="#">API PUBLIC QUIS</a>
         <button
-          class="navbar-toggler"
+          class="navbar-toggler border-0"
           type="button"
           data-toggle="collapse"
           data-target="#navbarNav"
@@ -40,7 +33,19 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="25"
+            height="25"
+            fill="currentColor"
+            class="bi bi-list"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+            />
+          </svg>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
@@ -48,7 +53,7 @@
               <a class="nav-link" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Api</a>
+              <a class="nav-link" href="kuis.json">Api</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="https://prtflo.000webhostapp.com/"
@@ -63,15 +68,21 @@
     <!-- container -->
     <div class="jumbotron d-flex align-items-center">
       <div class="container">
-        <h1 class="display-4 font-weight-bold">PUBLIC MY API</h1>
+        <h1 class="display-4 font-weight-bold">YUK QUIZ</h1>
         <p class="lead">
-          This is a simple hero unit, a simple jumbotron-style component for
-          calling extra attention to featured content or information. It uses
-          utility classes for typography and spacing to space content out within
-          the larger container.
+          <b>Quiz</b> adalah padanan kata atau sinonim untuk permainan
+          teka-teki, yang biasanya berhadiah. Pada umumnya, kuis dikenal melalui
+          acara televisi yang disiarkan secara rutin setiap pekan atau setiap
+          harini.
         </p>
-        <a class="btn btn-dark btn-lg btn-sm" href="kuis.json" role="button"
-          >Public My_Api</a
+        <a class="btn btn-dark btn-lg btn-block" href="kuis.json" role="button"
+          >Get API</a
+        >
+        <a
+          class="btn btn-green mt-3 btn-lg btn-block"
+          href="convert_json.html"
+          role="button"
+          >Convert Excel To JSON</a
         >
       </div>
     </div>

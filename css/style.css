@@ -1,0 +1,47 @@
+.jumbotron {
+  min-height: 100vh;
+  margin: 0;
+  border-radius: 0;
+  background-color: #7895b2;
+}
+
+.btn-green {
+  background-color: #217346;
+  color: #fff;
+}
+
+.textcopy {
+  position: relative;
+}
+
+textarea {
+  margin-top: 20px;
+  border-radius: 5px;
+  height: 50vh;
+  width: 100%;
+  display: none;
+  border: 0;
+  color: #fefefe;
+  background-color: #343a40;
+  padding-left: 20px;
+}
+
+.copy {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  display: none;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+textarea::-webkit-scrollbar {
+  width: 10px;
+  background-color: #fff;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background-color: #217346;
+}

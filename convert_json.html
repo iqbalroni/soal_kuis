@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.5/xlsx.min.js"></script>
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">API PUBLIC QUIS</a>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="25"
+            height="25"
+            fill="currentColor"
+            class="bi bi-list"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+            />
+          </svg>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="kuis.json">Api</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://prtflo.000webhostapp.com/"
+                >Portofolio</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- container -->
+    <div class="jumbotron d-flex align-items-center">
+      <div class="container">
+        <h1 class="display-4 font-weight-bold">CONVERT EXCEL TO JSON</h1>
+        <div class="form-group">
+          <div class="input-group mb-3">
+            <div class="custom-file">
+              <input
+                type="file"
+                class="custom-file-input"
+                aria-describedby="inputGroupFileAddon01"
+                id="file_upload"
+              />
+              <label class="custom-file-label" for="file_upload"
+                >Choose file</label
+              >
+            </div>
+          </div>
+        </div>
+
+        <button class="btn btn-green" onclick="upload()">CONVERT</button>
+        <div class="textcopy">
+          <button class="btn copy btn-warning" id="copy" onclick="copyText()">
+            COPY JSON
+          </button>
+          <textarea readonly id="json-result"></textarea>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // method to copy text
+      function copyText() {
+        var copyText = document.getElementById("json-result");
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        navigator.clipboard.writeText(copyText.value);
+        alert("Berhasil Di Copy");
+      }
+
+      // Method to upload a valid excel file
+      function upload() {
+        var files = document.getElementById("file_upload").files;
+        if (files.length == 0) {
+          alert("Please choose any file...");
+          return;
+        }
+        var filename = files[0].name;
+        var extension = filename
+          .substring(filename.lastIndexOf("."))
+          .toUpperCase();
+        if (extension == ".XLS" || extension == ".XLSX") {
+          excelFileToJSON(files[0]);
+        } else {
+          alert("Please select a valid excel file.");
+        }
+      }
+
+      //Method to read excel file and convert it into JSON
+      function excelFileToJSON(file) {
+        try {
+          var reader = new FileReader();
+          reader.readAsBinaryString(file);
+          reader.onload = function (e) {
+            var data = e.target.result;
+            var workbook = XLSX.read(data, {
+              type: "binary",
+            });
+            var result = {};
+            workbook.SheetNames.forEach(function (sheetName) {
+              var roa = XLSX.utils.sheet_to_row_object_array(
+                workbook.Sheets[sheetName]
+              );
+              if (roa.length > 0) {
+                result = roa;
+              }
+            });
+            //displaying the json result
+            var resultEle = document.getElementById("json-result");
+            var copy = document.getElementById("copy");
+            resultEle.value = JSON.stringify(result, null, 4);
+            resultEle.style.display = "block";
+            copy.style.display = "block";
+          };
+        } catch (e) {
+          console.error(e);
+        }
+      }
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
