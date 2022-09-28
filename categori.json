@@ -18,8 +18,12 @@
     "categori": "Psikotes",
     "key": "psikotes",
     "lock": false
-},{
+}, {
     "categori": "Sejarah Agama Islam",
     "key": "sejarahislam",
+    "lock": false
+}, {
+    "categori": "IT Support",
+    "key": "itsupport",
     "lock": false
 }]
